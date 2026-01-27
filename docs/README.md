@@ -8,10 +8,10 @@ remover e visualizar contatos.
 ## Funcionalidades
 - Cadastro de contatos (nome, telefone, email e grupo)
 - Validação de telefone (mínimo 9 dígitos)
-- Validação de email
+- Validação de email(tem que ter @ )
 - Listagem dos contatos em tabela
 - Edição e remoção de contatos
-- Filtro por grupo
+- Filtro por grupo(amigos,familia,trabalho e igreja)
 - Campo de busca
 
 ## Tecnologias Utilizadas
