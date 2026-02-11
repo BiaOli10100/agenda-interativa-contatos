@@ -1,0 +1,94 @@
+
+/* ===== LAYOUT PRINCIPAL ===== */
+     body{
+    /*Ativa o grid*/
+        display: grid;
+    /*Cria colunas no layout geral da página*/
+        grid-template-columns: 1fr 2fr;
+    /*Espaçamento entre as colunas do layout*/
+        gap: 50px;
+        font-family: Arial, sans-serif;
+    /*Margem interna da página*/
+        padding: 20px;
+
+    }
+
+/*===== Organização do Formulário =====*/
+    .form-cadastro{
+        grid-column: 1;
+    }
+    .buscar-contato{
+        grid-column: 2;
+    }
+    .lista-contatos {
+        grid-column: 2 ;
+    }
+
+.form-cadastro form{
+    display: flex;
+    /**/
+    flex-direction: column;
+    /*Espaçamento entre os campos*/
+    gap: 12px;
+}
+
+.campo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.campo label{
+    width: 80px;
+    font-weight: bold;
+}
+
+.campo input,.campo select{
+    flex: 1;
+}
+
+.campo button {
+    flex: 1;
+}
+
+.botoes{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+/*===== Organização do busca e filtros =====*/
+.buscar-contato {
+    display: flex;
+    /**/
+    flex-direction: column;
+    /*Espaçamento entre os campos*/
+    gap: 12px;
+}
+
+.busca-padrao,.busca-filtros {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.busca-padrao label{
+    width: 120px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+.busca-filtros label{
+    width: 200px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+.busca-padrao input,.busca-filtros select{
+    flex: 1;
+}
+
+
+
+/*===== Organização da tabela =====*/
+
+
